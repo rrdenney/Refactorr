@@ -2,10 +2,9 @@ package ifs;
 
 public class Refactoring {
 
-    private final InsuranceStrategyVeryHigh strategy;
+    private InsuranceStrategyVeryHigh strategy;
 
     {
-        strategy = new InsuranceStrategyVeryHigh();
     }
 
     public double calculateInsurance(double income) {
@@ -16,6 +15,7 @@ public class Refactoring {
         } else if (income <= strategy.getAdjustment()) {
             return strategy.getaDouble(income, 30000, 0.1, 76500);
         } else {
+            strategy = new InsuranceStrategyVeryHigh();
             return strategy.getaDouble(income, strategy.getAdjustment(), strategy.getWeight(), strategy.getConstant());
         }
 
