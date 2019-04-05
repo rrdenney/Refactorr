@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee846253-41b9-4f86-a341-749c67827db1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Refactor/src/ifs/InsuranceStrategyVeryHigh.java" />
       <change beforePath="$PROJECT_DIR$/../Refactor/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Refactor/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../Refactor/src/ifs/Refactoring.java" afterPath="$PROJECT_DIR$/../Refactor/src/ifs/Refactoring.java" />
     </list>
@@ -18,18 +19,9 @@
       <file leaf-file-name="Refactoring.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Refactor/src/ifs/Refactoring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="12" column="68" lean-forward="false" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-              <folding>
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,7 +29,7 @@
       <file leaf-file-name="RefactoringTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Refactor/src/ifs/RefactoringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="244">
               <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -301,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554478888513</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ExtractionMethods">
+      <created>1554479402040</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554479402040</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -350,7 +349,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing Branch" />
     <MESSAGE value="Extraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extraction" />
+    <MESSAGE value="ExtractionMethods" />
+    <option name="LAST_COMMIT_MESSAGE" value="ExtractionMethods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -359,7 +359,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Refactor/src/ifs/RefactoringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="244">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -379,18 +379,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Refactor/src/ifs/Refactoring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="68" lean-forward="false" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-          <folding>
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
